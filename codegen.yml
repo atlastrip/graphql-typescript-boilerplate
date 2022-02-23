@@ -1,7 +1,7 @@
 overwrite: true
 schema: 'http://localhost:4000/gql'
 generates:
-  src/types/types.ts:
+  src/generated/types.ts:
     plugins:
       - 'typescript'
       - 'typescript-resolvers'
